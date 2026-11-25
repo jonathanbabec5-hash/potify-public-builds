@@ -1,0 +1,2 @@
+# Python 3.10+. Local checks use only the standard library.
+# Optional remote verification uses an authenticated GitHub CLI (gh).
