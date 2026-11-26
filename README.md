@@ -16,6 +16,10 @@ A yellow leaf, a pencilled name on a seed packet, a rooftop lease: these are sma
 
 [Read the field guide to all 33 projects](docs/FIELD-GUIDE.md) · [Get the public data and source map](data/field-guide-sources.json) · [Follow the builder on GitHub](https://github.com/jonathanbabec5-hash) for the next documented change. For a correction, name the project, revision, expected result and what you observed. Keep personal and production data out of public reports.
 
+## Solana infrastructure
+
+[POTIFY TukTuk worker](tuktuk-worker/README.md) measures real SOL payouts for scheduled Solana jobs and includes an operator profile for competing on existing queues. [Mainnet measurements](tuktuk-worker/examples/RESULTS.md)
+
 ## Project directory
 
 The 33 entries cover applications, modules, creative editions, reference tools and specifications. Select **Paper** for the engineering or editorial decisions and **Plan** for the audience, proposed offer and sales measurement. The first targets are proposed. The public Command Center entry is a specification; the original implementation still needs a source handoff.
