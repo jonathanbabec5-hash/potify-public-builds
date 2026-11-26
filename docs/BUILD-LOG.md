@@ -28,3 +28,7 @@ The original Roots gateway matched all 15 files in the saved handoff, then passe
 ## November 26 · two dedicated project repositories
 
 The [Roots Agent Gateway](https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/tree/bd58b74a4d3778964a824555349609f85def79a0) and [TukTuk Worker](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/tree/30c986d5625b3b38f76eea63a212983987b3b587) now have independent public repositories under the POTIFY founder’s account. The gateway passed seven offline tests and the observer passed fifteen. Their audience, first action and proposed paid pilot are recorded in the two marketing plans. The portfolio now covers 35 project repositories.
+
+## November 26 · original Replit sources restored
+
+The [Plant Doctor restore](https://github.com/jonathanbabec5-hash/potify-plant-doctor/pull/2) passed a clean Node.js install, type checking, a production build and key-free smoke checks. It includes the original leaf artwork and a new SVG favicon. The [Green Light Pay merchant restore](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/pull/2) reunites the original server and 12 matching frontend assets. It passed 99 offline tests and the desktop and mobile Chromium workflows. The audited source pins remain in the historical example map.
