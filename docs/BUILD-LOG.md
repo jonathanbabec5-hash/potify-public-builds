@@ -16,3 +16,11 @@ Thirty-three project repositories were matched to public GitHub commits and tree
 The directory separates a verified GitHub publication from a production deployment, wallet approval or sale. New evidence can be added using the contribution guide.
 
 The existing game’s [default-branch developer guide](https://github.com/jonathanbabec5-hash/Potify/commit/d95a77c604b28404869761d7648911bbdc5023fa) also passed the four baseline game tests and a production build.
+
+## November 26, 2026 · contributor guides
+
+All 33 project guides were published to their catalogued branches. Each guide opens with the full directory link, points to a source file and offers a first contribution. Thirty-two guides landed on the default branch. The Roof 7B guide landed on the public developer branch used by that edition. The original game campaign is on the game's main branch.
+
+The [project register](../data/projects.json) links each documentation PR and records the verified commit and tree. The [field-guide source map](../data/field-guide-sources.json) preserves the original 33 source snapshots behind the examples. The three local catalog tests and the 33-entry validator passed. These checks establish what was published. Adoption, pilot requests and sales have their own measures in the project plans.
+
+The original Roots gateway matched all 15 files in the saved handoff, then passed five gateway tests and 58 Reclaim engine tests in a clean restore. The [standalone edition](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/tree/514c265d86a43ecca39cd1a83673d05bf58bd211) includes a version-matched read-only scanner, two additional scanner fixtures, and its own dependency lock. All seven standalone tests passed after a clean install. No production service or customer payment was exercised.
