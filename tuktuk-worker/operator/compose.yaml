@@ -1,0 +1,23 @@
+services:
+  worker:
+    profiles: ["operator"]
+    image: public.ecr.aws/v0j6k5v6/tuktuk-crank-turner:0.2.31@sha256:72bf6ce173d8c78db9ce39d51dcdf00c897b3c330814fc37b21159b2e7c3cc02
+    platform: linux/amd64
+    command: ["--config", "/etc/potify/config.toml"]
+    environment:
+      TUKTUK__RPC_URL: "${SOLANA_RPC_URL:?Set a Solana RPC URL with WebSocket support}"
+    volumes:
+      - type: bind
+        source: ./config.toml
+        target: /etc/potify/config.toml
+        read_only: true
+      - type: bind
+        source: "${POTIFY_WORKER_KEYPAIR_FILE:?Set the absolute path to a dedicated worker keypair}"
+        target: /run/potify/worker.json
+        read_only: true
+        bind:
+          create_host_path: false
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    restart: "no"

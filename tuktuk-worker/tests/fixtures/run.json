@@ -1,0 +1,136 @@
+{
+  "blockTime": 1795730383,
+  "meta": {
+    "err": null,
+    "fee": 10172,
+    "loadedAddresses": {
+      "readonly": [
+        "11111111111111111111111111111111"
+      ],
+      "writable": [
+        "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7"
+      ]
+    },
+    "logMessages": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program tuktukUrfhXT6ZT77QTU8RQtvgL967uRuVagWF57zVA invoke [1]",
+      "Program log: Instruction: RunTaskV0",
+      "Program log: Signer addresses: {5BQzhTN5tME1G16JNaY3p19Do5RNemtbMzJkC6WuEeg8}",
+      "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr invoke [2]",
+      "Program log: Signed by 5BQzhTN5tME1G16JNaY3p19Do5RNemtbMzJkC6WuEeg8",
+      "Program log: Memo (len 53): \"Finished claiming rewards due to insufficient balance\"",
+      "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr consumed 33895 of 54685 compute units",
+      "Program MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr success",
+      "Program log: Invoked",
+      "Program log: Paying out reward 15000",
+      "Program tuktukUrfhXT6ZT77QTU8RQtvgL967uRuVagWF57zVA consumed 66639 of 85700 compute units",
+      "Program tuktukUrfhXT6ZT77QTU8RQtvgL967uRuVagWF57zVA success"
+    ],
+    "postBalances": [
+      40403010,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      523015236,
+      0,
+      1142440,
+      655880,
+      17026983280,
+      1
+    ],
+    "preBalances": [
+      40398182,
+      0,
+      0,
+      2301000,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      523015236,
+      0,
+      1142440,
+      655880,
+      17024697280,
+      1
+    ]
+  },
+  "slot": 474307594,
+  "transaction": {
+    "message": {
+      "accountKeys": [
+        "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+        "3nYMhQrQo7xXsXGxebtsS865SgtPWCkCzhaSqEPcCxcx",
+        "6TYep3eg42A4jJojdouni8Wqy7LTrYVS78tWDkwyswrf",
+        "8DrWMcdEdcVtUr3P2wjzCmFbChqJCxfFWK99iqzKA9Um",
+        "AMUNhN25aTL3uQjUxPLq5HeEhmcxdEpUvKWwg1fjm8ox",
+        "Ai1Sc1bdv6RFt4UEZh6fWsSkumixXFuDdnmfX6KtNAUR",
+        "DDiYqcUAhAek8TVJrpdwoH16DJy47PJCBh2VY8FbtVkq",
+        "Gv7zokBJxZTHfBxXvFoVtxU6U43m8bqdhjg2nQ5eQVxs",
+        "ComputeBudget111111111111111111111111111111",
+        "Ed25519SigVerify111111111111111111111111111",
+        "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+        "Sysvar1nstructions1111111111111111111111111",
+        "tuktukUrfhXT6ZT77QTU8RQtvgL967uRuVagWF57zVA",
+        "5BQzhTN5tME1G16JNaY3p19Do5RNemtbMzJkC6WuEeg8"
+      ],
+      "instructions": [
+        {
+          "accounts": [],
+          "data": "LELE3H",
+          "programIdIndex": 8,
+          "stackHeight": 1
+        },
+        {
+          "accounts": [],
+          "data": "3pFgtwwZBtC7",
+          "programIdIndex": 8,
+          "stackHeight": 1
+        },
+        {
+          "accounts": [],
+          "data": "GXTvvCw189RJMiugScVauL9iF2WkrR9oiy2ENNirkQ75Rhu2ig1GdDhrSeWRH8QUpUbH9iDFxkqY4ifCnNq8MzmqPQ6F9GioAgDXfxQANMUp5fvAVkLN8dAembqLhGssZhz5aefdkA8PGGF6JggEZySCust9RBZwdqQXn7HYbwjZKHUBR3oqUTPU7VzZy7wUCdQ8mJCwvgfwc5WrSVDA14c9qtCx9DCqfrSEm35FhKu1EKTcxS7LR9oDGFpmKYkb151hXBpEioAB1kb5VvwzpGCodLawoVGc4juBpEDtXgfhMMuTU9vGNE8ckYdp7KgQ4g42pLk52LyfHstnoDKZY1mFsrGodc4NudNKXYxXuXLrwfYwbi7At5Ne1EMJSymHKpajNjmGg9R",
+          "programIdIndex": 9,
+          "stackHeight": 1
+        },
+        {
+          "accounts": [
+            0,
+            14,
+            14,
+            3,
+            15,
+            11,
+            13,
+            10,
+            6,
+            1,
+            4,
+            7,
+            2,
+            5
+          ],
+          "data": "5okkF1r4Po123wS1g9Q2dottP6sXraAYV",
+          "programIdIndex": 12,
+          "stackHeight": 1
+        }
+      ]
+    },
+    "signatures": [
+      "2zNCHvHTvzucqXEoJFhWEKCDYSGepqGx3ptAjhLEA6qmxJLYu64VfYu9wKZUASzVjUXKz2UCc6vehszeyR1oY5SP"
+    ]
+  },
+  "transactionIndex": 121,
+  "version": 0
+}

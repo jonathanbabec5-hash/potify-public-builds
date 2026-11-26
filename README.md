@@ -4,6 +4,10 @@
 
 **Seed → Soil → Solana.** Start with a piece of work you can try. Plant Doctor takes an observation and returns ranked care suggestions. Roof 7B turns a first harvest into a neighborhood story. The First Cycle puts the book, the field film and the Grow Room recording in one edition. Each entry below links to a specific public source revision and has its own goal and commercial test.
 
+## Solana infrastructure
+
+[POTIFY TukTuk worker](tuktuk-worker/README.md) measures real SOL payouts for scheduled Solana jobs and includes an operator profile for competing on existing queues. [Mainnet measurements](tuktuk-worker/examples/RESULTS.md)
+
 ## Project directory
 
 The 33 entries cover applications, modules, creative editions, reference tools and specifications. Select **Paper** for the engineering or editorial decisions and **Plan** for the audience, proposed offer and sales measurement. The first targets are proposed. The public Command Center entry is a specification; the original implementation still needs a source handoff.

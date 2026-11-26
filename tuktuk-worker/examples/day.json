@@ -1,0 +1,588 @@
+{
+  "schema": 1,
+  "cluster": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+  "program": "tuktukUrfhXT6ZT77QTU8RQtvgL967uRuVagWF57zVA",
+  "summary": {
+    "sample_transactions": 32,
+    "statuses": {
+      "completed": 31,
+      "failed": 1
+    },
+    "first_block_time": 1795648910,
+    "last_block_time": 1795729703,
+    "completed_jobs": 32,
+    "jobs_with_verified_payout": 32,
+    "verified_rewards_lamports": 480000,
+    "completed_jobs_by_worker": {
+      "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM": 29,
+      "FojN4vUWy4pmVXXPmSrzP1pRtWRUWPsaDRvx1SS3C3tm": 3
+    },
+    "fees_on_failed_run_transactions_lamports": 5934,
+    "reconciled_single_wins": 30,
+    "reconciled_net_lamports": 185928,
+    "lowest_reconciled_net_lamports": 4260,
+    "highest_reconciled_net_lamports": 9730
+  },
+  "transactions": [
+    {
+      "signature": "5Rer1RgtnxrFZbCypTjqDZmgtRXBKXRxtaWioZkaNRadtnewdktnwbZaG4oT9WWGDSRCEG7HN6R7e8fKgWPsufup",
+      "slot": 474304436,
+      "block_time": 1795729703,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10740,
+      "reconciled_win_net_lamports": 4260,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "GRAb9rEvpaKkBfWWyuGYi1Ums6tiXiHTGso2SAWNpe9K",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5ajGBwnHRz3rJKnp6yDdXA25G5jWkYjmAJtX3qTQdpoSPbJQ1WfpTMgn2tjNTLw5Kf1D86GbDw1QYsrMFb1TKUrq",
+      "slot": 474286881,
+      "block_time": 1795725936,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5656,
+      "reconciled_win_net_lamports": 9344,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "4zzyFzViYsjniCVEwdRsc3zKcgnVMK9AHUVFSfiHSDVo",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "WqiZBYsi5geXFghm2bBS7jdCt3B4rPF2MgVLUGgzfGpLd3obe3TuRgudfcUePQfSbU88n4NDuZhc2kCNjzJcAjM",
+      "slot": 474253296,
+      "block_time": 1795718722,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "5vK3dJEUtrXQiQM4BKXcyhgPr4FoH6mf5txxRUuuQJVw",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "29GW1JTZPgQB4ZneXEAHAXnkK8drZ9dTyEMaNkUm8MiwR2WDSJbbwx9TKPskxEXf2aBf3jxAALhxRGSP7oSZEQap",
+      "slot": 474232925,
+      "block_time": 1795714335,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "GtJ2uYxvkLHxTdmNZNn8n9wJjNy9S9wsMGJokMrMCEFF",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5cMyFuXD8SfQctZUhvCoD2meNtQqptnnCqs5RKoVgXwdVhicu2qXfAVjf9ZCnsNm45r71uqq3XgU3s6CMN51DMt4",
+      "slot": 474211648,
+      "block_time": 1795709762,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "FR26VbYCNwtQr7NBLS7d6vYBJksWse5YZkPDSNn8htyj",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "33DPwrNFKZcBRcvbv4kGtiWnwpVih5cBM6j7kuDNzrnpXsM4Sx7UxRhxcU4SKWbJox3ymvZCmuGPrFtUCsNYm3bb",
+      "slot": 474211567,
+      "block_time": 1795709744,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "aRk9NBUQsQf946huEgafTm3MS8QxeEvWLaEUxBedpcC",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5CpZ9z9P6YX1rXaRZHDxqZgQzmGHpyVz8UBRtanj8m7D5Cu7uPfdAiowhdftTroNJmqno5BUe1Z1c5tk8WX2Btth",
+      "slot": 474192646,
+      "block_time": 1795705663,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "D77C5tC7KUURz6VimpbwS8HPQFxfKyxL4wr6eNV9q9j6",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "3JY42o1YN7S1J5zLvTWya9VgvhAeLSveJPHFf4WiRXX4eB9Gc2zag7P6MnaMAEiKyXChWmU6YhAhsyUx82aCLP9T",
+      "slot": 474151828,
+      "block_time": 1795696877,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5656,
+      "reconciled_win_net_lamports": 9344,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "D3gG1EPjQmLwCpUwh1jdCzQpq98LLokpvf5GtR3gFcv8",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2qndF3UqYLi7Qb3w81xXpoxESWXhzPgXkSMXGt8QvQEZnNReLdFqxpWrG8WWmGJKcmA9qTUnjbJv8vqfL5Ud8YJM",
+      "slot": 474145476,
+      "block_time": 1795695513,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "GJ5TegSoRwEs2tMp4mzZ8ADRZGuz8n3Ch6qfQdif6Yty",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2mXHUrtRtAZKKfqfV4K95i76p9Go9n9ckpuvRyaGU6TJN2akUxGp6okq9pVKU9bSNeb81LdRCw7G4VXRaCcjs3FA",
+      "slot": 474079421,
+      "block_time": 1795681328,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "5fsaKiDV7VhjZKs5bY65KaXVgecmXHkgQCyeFEijHdPR",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "V2fGmyeX8bQQKVTDVwe7fTBEGGbnHiNFCJPFd9PbJth5xvsBWL1LUippNjoZHR4MRwv4D5LDiYWpCVgs8ZmUWhm",
+      "slot": 474062103,
+      "block_time": 1795677601,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10150,
+      "reconciled_win_net_lamports": 4850,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "vUVGm8ePpfUeX6FYwCYxdad5rVcicGLnfRtuZfKKsiH",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "3Rccb8JAw6Bq82CD9yqFcxLTWiyqWUWTRGWrr5bEjWnCWABm1Qbd6nv1VSpjyFdozNfaHc76U8nPKqySe5MMqGd3",
+      "slot": 474059610,
+      "block_time": 1795677068,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10740,
+      "reconciled_win_net_lamports": 4260,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "DSKKPm58tCxt3E9z75BwsU4Jubm5pWPXY9KZGRyY5mFs",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "3uFxFc97p9Dw4AzwB9odxLghZZmc5vcPoENeaBtGCCeaqAP5immEXZNLzN1CvfimB9UBVUVPhtp4cjZifxxSJibr",
+      "slot": 474034157,
+      "block_time": 1795671600,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10472,
+      "reconciled_win_net_lamports": 4528,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "Ek4LXnKSySupP19vM1JvEn8DSFBuRr9Rh3rA71DhL8Ld",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2Czq2tnUhZVzfc8zdzyDiPAtCspHCog6FtvihnGYZCMExWorWh8nprf34z7e7VokSxjPs2DLSeC6nMmbWC8SRyFF",
+      "slot": 474000682,
+      "block_time": 1795664401,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10472,
+      "reconciled_win_net_lamports": 4528,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "Bvo6mPjrRzRKbx4YhjugJK9Uc4mm5Tkx2nmHtDCSHdUD",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "RyyKHVUEyXUnWYaiSwAkLzfPgoxrHdn2x4tcdbiWDqbt8cvkFv6pcssZCU6Skdi3AxQ7RkvW7HLCZJ4QWnCGkJz",
+      "slot": 473978464,
+      "block_time": 1795659625,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "3mQyL6KxBRew2PfR2AdJtexBrVuxzruDU64YwjJkADNV",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "3DFnuzhqoRQMVTqMk4Nfx8ywmb56XL7teKqTy1zhYp4tc1gUoyWcgLsa5dMt78DAsExF7kMJ1PJmZ92K5ue9ssjF",
+      "slot": 473974784,
+      "block_time": 1795658832,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10528,
+      "reconciled_win_net_lamports": 4472,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "CqdRAZzBDwAgKpLxmonGs76u3aUc36KRgruyXf6HfN7H",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5rdnJkTcjANny6cpGpgc4iXEeVTkk1wnR9xuL3vUSPDeCioPifQhRXGU7Z2A1Bo2fU8XBvtdzAAWa7NLgsF3roEV",
+      "slot": 473973216,
+      "block_time": 1795658495,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "FdE5BRZ4riZCe9cxU5z4pkaheevrKZTbyU9cjhVaZWUw",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5e7hEbMg32WndH6b3kxtLML673PEW4n55zYqmtzXo6KU5ukcTQkycvb5t9XZV2qtpUCYiQRmurHiPSrpKje9rQZ",
+      "slot": 473973198,
+      "block_time": 1795658491,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "9UjZHXXYLqEsu2DKKtuhTGi2XNLx21eM52EZcKzoDLTC",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2fATCV6pq1jAfDETyPmMEAAMVaPqnHTs3dAP56KsV13CUcKLKYtpoLWjexF9bBsVqohimKz2fecfkHD2kRGmEc33",
+      "slot": 473972832,
+      "block_time": 1795658412,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "4qfphngXf8NBiD2mBdQiVTXxDgSu9nieawCAiAUGhMyt",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2fiuoH9hna2FiHZCQ9jkuR8hcDRXQSM1xBYSxCz27LfzrYmUNjGzRz99GhWfwqhH8EB6Qs5ac58iM6NbmYGrMtoT",
+      "slot": 473972797,
+      "block_time": 1795658405,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10554,
+      "reconciled_win_net_lamports": 4446,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "D6qvMcGJZ3sqDhb7XiRDVoZw6TH79jb1s44xVDSeVpkj",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2pZ9xz599zjRRdoUe8wM7kGyEtkx2WhbNvCyMmeyALeQgRLBWX4VWaSSVHWaasLgPMFbD5fWurMGv7aBrWnNAHUF",
+      "slot": 473943449,
+      "block_time": 1795652101,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5628,
+      "reconciled_win_net_lamports": 9372,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "3Z4H8BNeUPBC1bNfChPTTJr5482wT8g52B5dQq1Qx9wL",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5EgB4n7o71BY6kxvn652P2fJz3cMC9xjjSbpkEK35GRn3NswdtydRdyCFpqGTMeLvph9BWAtJPgTB8T7YTftzmPC",
+      "slot": 473943447,
+      "block_time": 1795652101,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5270,
+      "reconciled_win_net_lamports": 9730,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "5GqN3onmnPBuh8gFhnADKZjkHrBuj9y8rSTUt5FENzYr",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "52GNyNZ9XNyqzBvmNQaoHZL9ojGX1zSXv4Rhe8yZidRTKoxr3hK5Jx3PFcByTm4nru5Vd5FvNeDAp7TQrF15k3NC",
+      "slot": 473943446,
+      "block_time": 1795652101,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5270,
+      "reconciled_win_net_lamports": 9730,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "D8haeviaS5k1hbXu12Ept8AtqAvKg9Qt4PBKeU3Z3E6b",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5vWgCCBCd541XwK3gZYYtbYBStyiFgnGfLmDd1zy2giKR1FUzUcyNgAsS1ELuEKfPVW7B1iNWHjbbx61Ju6v12TK",
+      "slot": 473943444,
+      "block_time": 1795652100,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5270,
+      "reconciled_win_net_lamports": 9730,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "HvywcfuBKPEJw4RmnnNBfJboQBmDrmANQbSY6NRrRknf",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2dDdD3cLnBnKmH5j2ms5knU4k8aGa26NXMaVUFmXAsSgb8cb9yFsuz4aK3KL3NFW7xPXHz4T9unbmeWqELvAHqba",
+      "slot": 473943442,
+      "block_time": 1795652100,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5270,
+      "reconciled_win_net_lamports": 9730,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "GutqSVE334ReCA9UfpKCUovbLi3bXZsXTcwjgSCyvYsm",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "Ld5KxvxYf4DdBe3LFpiSDDXNr1kXZ5tYoKbv6bK11AXgXycZ6AmmZQZ13kYHXjAnEiTSm6W6G9stoVTHUgpmTii",
+      "slot": 473935871,
+      "block_time": 1795650468,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "JEBFN8nq8TGJTKp8cjnHUzWX4GHhp1CNa1vsgX43bGhr",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5wjki4YmGnAXVeXLfo1n3ZNgHSySCAPxSDUNhogebSFMBHMPpnfX2Fz623V3qUCdNQFZXzxVXas7vsxq4Xm21uEs",
+      "slot": 473935129,
+      "block_time": 1795650307,
+      "status": "failed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5934,
+      "reconciled_win_net_lamports": null,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "DdGkEBZapK2TExt1mkL9V7zQ1aMuQYacmkjrNFitTbPg",
+          "reward_lamports": 0
+        }
+      ]
+    },
+    {
+      "signature": "4ELuNtZAptvFA8L5bmv3n1bDYa7vqmXYLAXGbvYMeaYrjFTDWpjGNeoqJiHHrFzywEqrfBKNZb2Cz5T75MgVmqQB",
+      "slot": 473935127,
+      "block_time": 1795650306,
+      "status": "completed",
+      "payer": "FojN4vUWy4pmVXXPmSrzP1pRtWRUWPsaDRvx1SS3C3tm",
+      "fee_lamports": 6000,
+      "reconciled_win_net_lamports": 9000,
+      "runs": [
+        {
+          "worker": "FojN4vUWy4pmVXXPmSrzP1pRtWRUWPsaDRvx1SS3C3tm",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "DJfyetFyiL8qEaXkqj2HAQ4iQZ6dGg9athPCTjRCv8rg",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "5odVC1Rp5ZiyigTCRr1QKv2TckBMyEAKMoRD6d3F7EpCNAufUpjYskitEXyZhKR6vcuF5FxstUNAD3VU8hrpfGbz",
+      "slot": 473935110,
+      "block_time": 1795650303,
+      "status": "completed",
+      "payer": "FojN4vUWy4pmVXXPmSrzP1pRtWRUWPsaDRvx1SS3C3tm",
+      "fee_lamports": 9750,
+      "reconciled_win_net_lamports": null,
+      "runs": [
+        {
+          "worker": "FojN4vUWy4pmVXXPmSrzP1pRtWRUWPsaDRvx1SS3C3tm",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "HxfV947JPAvX2Pawp1XD7woLet7hmvXcQaxqVETErGPx",
+          "reward_lamports": 15000
+        },
+        {
+          "worker": "FojN4vUWy4pmVXXPmSrzP1pRtWRUWPsaDRvx1SS3C3tm",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "5xJFzpfeFATzof7L4usxN2shWpj7NrT7q64VR6yjARho",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "4ZqfWGRzGAjfwYuMuq9wfbMcs4RPVfHkm4wDFtBXtnGZKhXAgeG761ufRPDBiqjeYZ4SZN6dUqBphvXSnCAogJ4X",
+      "slot": 473935104,
+      "block_time": 1795650302,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5934,
+      "reconciled_win_net_lamports": 9066,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "CUus1mgdEKssE7EMdtCSmqeRTvFhJwx7zncQpmyyoSXN",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "uK7xFuXDhV99VuivM66FL3GLKcGNFdi2iPVJitGBxw3nL58YLsry1niTnwndFpnn4CWZir77m1spxzpBiwF3c52",
+      "slot": 473935099,
+      "block_time": 1795650300,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 5934,
+      "reconciled_win_net_lamports": 9066,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "HBMeJt7hJCXZqpQVW7so92rR1gVZYpZfBTw3s9JPcXxy",
+          "reward_lamports": 15000
+        }
+      ]
+    },
+    {
+      "signature": "2cTRBNap4KPo1nQK7VG1hwvLqf6GaoRTMRLyCAniWaHmqKcdT4jPExyjoADcAm65kGMGVeE7DhEmY7UvaaXhcQZP",
+      "slot": 473928629,
+      "block_time": 1795648910,
+      "status": "completed",
+      "payer": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+      "fee_lamports": 10172,
+      "reconciled_win_net_lamports": 4828,
+      "runs": [
+        {
+          "worker": "BcS9rqkjquBDyi1faYqWYaLfW2Pc9fAXuBxoDHKYdYRM",
+          "queue": "H39gEszvsi6AT4rYBiJTuZHJSF5hMHy6CKGTd7wzhsg7",
+          "task": "DUaiy2rufnETd1qhWtnp28xznF4HgfYCyh4N5BNUuWhy",
+          "reward_lamports": 15000
+        }
+      ]
+    }
+  ],
+  "selection": {
+    "method": "one seeded draw per equal-count chronological stratum",
+    "start_exclusive": 1795644212,
+    "end_inclusive": 1795730612,
+    "program_signatures": 9723,
+    "newest_signature": "3ekGruZqL88WVtwXgwpbD6TC3MbMXLbEk4MUc4wABEWxtvvkhD1aZVCXhdFcav4QUvWxm6K7kifsWdBj1UnaAs3y",
+    "oldest_signature": "3XCmZEeyp48PoWWM5nPMK1iBpHe6kWqx3Eyg8SteizJmLBqfD6DHm7P2y5XNUXUocXfhSyp7GFM1esSf9PZwGMu",
+    "seed": 42,
+    "sample_size": 32
+  }
+}

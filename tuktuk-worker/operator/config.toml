@@ -1,0 +1,6 @@
+# Local worker inputs. Compose supplies the RPC URL and mounts a dedicated keypair.
+key_path = "/run/potify/worker.json"
+min_crank_fee = 15000
+max_sol_fee = 12000
+max_retries = 0
+sender_max_re_sign_count = 0
