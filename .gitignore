@@ -1,5 +1,7 @@
 __pycache__/
 *.py[cod]
 .env
-.venv/
-.DS_Store
+.env.*
+*.keypair.json
+worker.json
+runs/

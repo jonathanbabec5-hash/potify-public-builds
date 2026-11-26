@@ -1,13 +1,15 @@
-# Public build campaign
+# TukTuk observer launch and sales plan
 
-**Goal.** Bring a reader from a real piece of work to one action they can complete and trace. Lead with Plant Doctor, the Roof 7B game and the First Cycle edition.
+**Audience.** Solana developers who operate a queue or need to explain the difference between gross scheduled rewards and the amount a worker actually retains.
 
-| Release | Developer proof | Audience action | Proposed first commercial signal |
-| --- | --- | --- | --- |
-| Plant Doctor | Compare a ranked assessment with a change in one observation. Show the 313-entry website library and the separate 37-profile guide. | Try the assessment and describe one result. | Two paid care-log downloads after the proposed $6 product exists. |
-| Roof 7B | Show a returning save and a first rooftop harvest. | Finish a first harvest in a free playtest. | Three opt-ins for the city field guide before production. |
-| First Cycle | Open the book, play the correct Grow Room recording, then follow the real product listing. | Explore the free edition. | One fulfilled, attributable POTIFY tote order. |
-| Potify ID | Reproduce the two-app crew badge and one-use screening pass. | Run the fixture or volunteer an organizer-operated pilot. | A written onboarding scope after an actual partner accepts the integration. |
-| Green Light Pay | Show a synthetic checkout receipt and its reconciliation steps. | Complete a qualified merchant interview. | One request for separately contracted discovery. |
+**Public demonstration.** Walk through one saved successful transaction and one failure with its fee. Let the reader change a single cost assumption and reproduce the calculation offline. Ask readers to submit one reproducible discrepancy or confirm a sample with their method. [Sample results](../examples/RESULTS.md)
 
-Chance approves any posts and placement. Publish one reviewed clip or source note at a time, each pointing to its relevant project. Compare engaged project visits, completed trials, qualified inquiries and reconciled orders in separate columns. Use seven days for attribution and 28 days for the initial comparison. Current conversion and sales baselines are unknown. Proposed incremental ad spend is $0. Clear sold-product receipts and direct costs before reporting net sales.
+**Proposed first offer.** A queue maintainer chooses a past window and receives an annotated payout report with the sample, observed fees, exclusions and a short walkthrough. Test a fixed **$35 pilot quote** with the maintainer before doing custom work. A report can be delivered using read-only evidence. No signing service or return on capital is part of the offer.
+
+| First 30 days after a public demo | How to count |
+| --- | --- |
+| Three independent replays | A developer names the sample, command and observed result. |
+| Two qualified queue-owner inquiries | Each inquiry identifies the queue, window and decision the report would inform. |
+| One paid and accepted report | Record the agreed scope, cleared payment and buyer acceptance. Track labor and direct costs separately. |
+
+Chance owns the demo and quote. Publish an example only after checking that the supporting data is already public. At the end of the test, compare replay counts with real owner inquiries. If people can reproduce the result but do not want a custom report, ask which decision the report failed to resolve. Disclose operating revenue separately from rewards received by other workers.

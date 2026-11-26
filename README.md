@@ -1,65 +1,76 @@
-# POTIFY public builds
+# POTIFY TukTuk worker
 
-[Full repository tree](docs/DIRECTORY.md) · [Portfolio whitepaper](docs/WHITEPAPER.md) · [Marketing and sales plan](docs/MARKETING.md) · [Build log](docs/BUILD-LOG.md)
+[Complete project directory](docs/DIRECTORY.md) · [Technical whitepaper](docs/WHITEPAPER.md) · [Marketing and sales plan](docs/MARKETING.md)
 
-**Seed → Soil → Solana.** Start with a piece of work you can try. Plant Doctor takes an observation and returns ranked care suggestions. Roof 7B turns a first harvest into a neighborhood story. The First Cycle puts the book, the field film and the Grow Room recording in one edition. Each entry below links to a specific public source revision and has its own goal and commercial test.
+An application posts a scheduled job to a TukTuk queue and funds a reward. Independent workers compete to execute it on Solana. The successful worker receives SOL in the same transaction. This gives POTIFY a place to find paid work without signing up each application as a customer. The identity of the software that requested a job is generally unknown.
 
-## Solana infrastructure
+[Mainnet results](examples/RESULTS.md) · [Full-day sample](examples/day.json) · [Consecutive transactions](examples/mainnet.json) · [Upstream protocol](https://github.com/helium/tuktuk)
 
-[POTIFY TukTuk worker](tuktuk-worker/README.md) measures real SOL payouts for scheduled Solana jobs and includes an operator profile for competing on existing queues. [Mainnet measurements](tuktuk-worker/examples/RESULTS.md)
+## Run the observer
 
-## Project directory
-
-The 33 entries cover applications, modules, creative editions, reference tools and specifications. Select **Paper** for the engineering or editorial decisions and **Plan** for the audience, proposed offer and sales measurement. The first targets are proposed. The public Command Center entry is a specification; the original implementation still needs a source handoff.
-
-| Project and pinned source | Available scope | Proposed first target | Project documents |
-| --- | --- | --- | --- |
-| [Plant Doctor](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28) | Diagnostic app and original website condition library | 5 actionable fixture reviews | [Paper](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28/docs/MARKETING.md) |
-| [POTIFY City · Roof 7B](https://github.com/jonathanbabec5-hash/Potify/tree/1cfb7051dd15b886a25062e6b6831466cbaf3c9b) | Existing GitHub game and tested developer update | 5 observed first harvests and 3 field-guide opt-ins | [Paper](https://github.com/jonathanbabec5-hash/Potify/blob/1cfb7051dd15b886a25062e6b6831466cbaf3c9b/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/Potify/blob/1cfb7051dd15b886a25062e6b6831466cbaf3c9b/docs/MARKETING.md) |
-| [The First Cycle Edition](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/tree/5d7a7364627054adbda03607096d51048dd97ec2) | Public edition frontend | 20 qualified edition opens | [Paper](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/blob/5d7a7364627054adbda03607096d51048dd97ec2/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/blob/5d7a7364627054adbda03607096d51048dd97ec2/docs/MARKETING.md) |
-| [Potify ID](https://github.com/jonathanbabec5-hash/potify-id/tree/99bab8dc408655abe294d7d8d0f411fcee8c155d) | Two-app pilot and website integration source | 2 external developers reproduce the fixture | [Paper](https://github.com/jonathanbabec5-hash/potify-id/blob/99bab8dc408655abe294d7d8d0f411fcee8c155d/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-id/blob/99bab8dc408655abe294d7d8d0f411fcee8c155d/docs/MARKETING.md) |
-| [Green Light Pay Consumer](https://github.com/jonathanbabec5-hash/potify-green-light-pay/tree/d6f68699bb80e9e2a17a70a5304fb9248b3abae7) | Working sandbox and reference source | 5 merchant walkthrough completions | [Paper](https://github.com/jonathanbabec5-hash/potify-green-light-pay/blob/d6f68699bb80e9e2a17a70a5304fb9248b3abae7/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-green-light-pay/blob/d6f68699bb80e9e2a17a70a5304fb9248b3abae7/docs/MARKETING.md) |
-| [Project Reclaim](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/tree/1de4db4fe232a2e7c6074c1c079509c33fb95fa3) | Original wallet engine and verification source | 5 users correctly identify fee and net | [Paper](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/blob/1de4db4fe232a2e7c6074c1c079509c33fb95fa3/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/blob/1de4db4fe232a2e7c6074c1c079509c33fb95fa3/docs/MARKETING.md) |
-| [Vape God](https://github.com/jonathanbabec5-hash/potify-vape-god/tree/438c0b9a05a3f5161016bd5a82e93b665bd4b7f3) | Editable original game client | 10 distinct completed rounds | [Paper](https://github.com/jonathanbabec5-hash/potify-vape-god/blob/438c0b9a05a3f5161016bd5a82e93b665bd4b7f3/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-vape-god/blob/438c0b9a05a3f5161016bd5a82e93b665bd4b7f3/docs/MARKETING.md) |
-| [POTIFY Merch Directory](https://github.com/jonathanbabec5-hash/potify-merch/tree/85e7fb86ba48250b06c270decdf1f1c570f7d68c) | Store integration reference | 10 qualified product views | [Paper](https://github.com/jonathanbabec5-hash/potify-merch/blob/85e7fb86ba48250b06c270decdf1f1c570f7d68c/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-merch/blob/85e7fb86ba48250b06c270decdf1f1c570f7d68c/docs/MARKETING.md) |
-| [POTIFY Dispatch Console](https://github.com/jonathanbabec5-hash/potify-dispatch-console-reference/tree/e571c2ccb089f36ad47962b50fec9e018c2cecf2) | Local reference app | 5 completed local rehearsals | [Paper](https://github.com/jonathanbabec5-hash/potify-dispatch-console-reference/blob/e571c2ccb089f36ad47962b50fec9e018c2cecf2/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-dispatch-console-reference/blob/e571c2ccb089f36ad47962b50fec9e018c2cecf2/docs/MARKETING.md) |
-| [POTIFY Operations Workflow](https://github.com/jonathanbabec5-hash/potify-operations-workflow/tree/6ae977c5b6ffaaa8922cf48cfd2d0e98285a5ba0) | Public approval-state library | 3 editorial teams run the examples | [Paper](https://github.com/jonathanbabec5-hash/potify-operations-workflow/blob/6ae977c5b6ffaaa8922cf48cfd2d0e98285a5ba0/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-operations-workflow/blob/6ae977c5b6ffaaa8922cf48cfd2d0e98285a5ba0/docs/MARKETING.md) |
-| [POTIFY Telegram Editorial Kit](https://github.com/jonathanbabec5-hash/potify-telegram-editorial/tree/6a5525e616377e71cf605c29210357552ea474fd) | Recovered bot source and offline review tool | 5 successful duplicate-draft reviews | [Paper](https://github.com/jonathanbabec5-hash/potify-telegram-editorial/blob/6a5525e616377e71cf605c29210357552ea474fd/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-telegram-editorial/blob/6a5525e616377e71cf605c29210357552ea474fd/docs/MARKETING.md) |
-| [Potify Command Center](https://github.com/jonathanbabec5-hash/potify-command-center-handoff/tree/c30afd1480ee4477b6a90ef9bbba99b74ea999fc) | Public specification · original source pending | 1 verified source handoff | [Paper](https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/c30afd1480ee4477b6a90ef9bbba99b74ea999fc/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/c30afd1480ee4477b6a90ef9bbba99b74ea999fc/docs/MARKETING.md) |
-| [The Living Archive](https://github.com/jonathanbabec5-hash/potify-living-archive/tree/bce3c6acddd59662809f0d286dbc04860ef98a95) | Application source | 12 readers reach three stages | [Paper](https://github.com/jonathanbabec5-hash/potify-living-archive/blob/bce3c6acddd59662809f0d286dbc04860ef98a95/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-living-archive/blob/bce3c6acddd59662809f0d286dbc04860ef98a95/docs/MARKETING.md) |
-| [Beneath the Surface · Launch Room](https://github.com/jonathanbabec5-hash/potify-launch-room-developer/tree/6c4aabc97ff86533ca560d47289237e9e9008aab) | Public navigation component edition | 10 qualified handoffs | [Paper](https://github.com/jonathanbabec5-hash/potify-launch-room-developer/blob/6c4aabc97ff86533ca560d47289237e9e9008aab/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-launch-room-developer/blob/6c4aabc97ff86533ca560d47289237e9e9008aab/docs/MARKETING.md) |
-| [Field Card Delivery and Measurement](https://github.com/jonathanbabec5-hash/potify-field-measurement/tree/9e16809b0f9ead2ad87bfc162b3653fa0e24af87) | Worker source and SQL fixtures | 3 independent test runs | [Paper](https://github.com/jonathanbabec5-hash/potify-field-measurement/blob/9e16809b0f9ead2ad87bfc162b3653fa0e24af87/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-field-measurement/blob/9e16809b0f9ead2ad87bfc162b3653fa0e24af87/docs/MARKETING.md) |
-| [POTIFY City Public World Bible](https://github.com/jonathanbabec5-hash/potify-city-canon/tree/5628e8b1e12d19ec1f8e80a2f3c0a7a00b02ea8b) | Creative registry and searchable site | 5 specific worldbuilding responses | [Paper](https://github.com/jonathanbabec5-hash/potify-city-canon/blob/5628e8b1e12d19ec1f8e80a2f3c0a7a00b02ea8b/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-city-canon/blob/5628e8b1e12d19ec1f8e80a2f3c0a7a00b02ea8b/docs/MARKETING.md) |
-| [Plant Health Journal](https://github.com/jonathanbabec5-hash/potify-plant-health/tree/de6a583235833c3ba4dd9d50117d2888e46ffcda) | Application source | 8 completed sample entries | [Paper](https://github.com/jonathanbabec5-hash/potify-plant-health/blob/de6a583235833c3ba4dd9d50117d2888e46ffcda/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-plant-health/blob/de6a583235833c3ba4dd9d50117d2888e46ffcda/docs/MARKETING.md) |
-| [Soil Biology Weekly](https://github.com/jonathanbabec5-hash/potify-soil-biology-weekly/tree/7841736c1a74cb8db78f820d3abd84a4723494b4) | Editorial research kit | 5 grounded reader questions in four issues | [Paper](https://github.com/jonathanbabec5-hash/potify-soil-biology-weekly/blob/7841736c1a74cb8db78f820d3abd84a4723494b4/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-soil-biology-weekly/blob/7841736c1a74cb8db78f820d3abd84a4723494b4/docs/MARKETING.md) |
-| [POTIFY Greenhouse and Holder Hub](https://github.com/jonathanbabec5-hash/potify-holder-hub/tree/9817ba64d002eefa1ae85b522231c69d47307e17) | Application source, local beta | 5 completed sample quests | [Paper](https://github.com/jonathanbabec5-hash/potify-holder-hub/blob/9817ba64d002eefa1ae85b522231c69d47307e17/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-holder-hub/blob/9817ba64d002eefa1ae85b522231c69d47307e17/docs/MARKETING.md) |
-| [Spin to Win and Prize Verification](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/tree/648d56e3be4f58a72c4a7c67854042ae407c688b) | Original promotion source and public route guide | 2 event organizers review the verification guide | [Paper](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/blob/648d56e3be4f58a72c4a7c67854042ae407c688b/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/blob/648d56e3be4f58a72c4a7c67854042ae407c688b/docs/MARKETING.md) |
-| [POTIFY Website](https://github.com/jonathanbabec5-hash/potify-website-developer-guide/tree/eee89271fc005a1eaae74faaa5e1db93fd67a7b8) | Website integration source and route directory | 10 qualified project opens | [Paper](https://github.com/jonathanbabec5-hash/potify-website-developer-guide/blob/eee89271fc005a1eaae74faaa5e1db93fd67a7b8/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-website-developer-guide/blob/eee89271fc005a1eaae74faaa5e1db93fd67a7b8/docs/MARKETING.md) |
-| [From Seed to Smoke](https://github.com/jonathanbabec5-hash/potify-seed-to-smoke/tree/563ba0e2bc6e96ce6ecd52210f70008366fde9ab) | Film preview, captions and screening page | 15 preview completions | [Paper](https://github.com/jonathanbabec5-hash/potify-seed-to-smoke/blob/563ba0e2bc6e96ce6ecd52210f70008366fde9ab/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-seed-to-smoke/blob/563ba0e2bc6e96ce6ecd52210f70008366fde9ab/docs/MARKETING.md) |
-| [Grow Room Sessions](https://github.com/jonathanbabec5-hash/potify-grow-room-sessions/tree/b69c60ebe2b4d0c715e58909389f8d875fb8ba5d) | Audio edition and listening page | 10 qualified listening starts | [Paper](https://github.com/jonathanbabec5-hash/potify-grow-room-sessions/blob/b69c60ebe2b4d0c715e58909389f8d875fb8ba5d/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-grow-room-sessions/blob/b69c60ebe2b4d0c715e58909389f8d875fb8ba5d/docs/MARKETING.md) |
-| [Wake & Bake POTIFY Price Update](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/tree/a544bf4e6897dab412451753a3d67fd1eb7928e4) | Editorial production kit | 5 repeat viewers across two approved episodes | [Paper](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/blob/a544bf4e6897dab412451753a3d67fd1eb7928e4/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/blob/a544bf4e6897dab412451753a3d67fd1eb7928e4/docs/MARKETING.md) |
-| [Green Light Pay Initiative](https://github.com/jonathanbabec5-hash/potify-glp-initiative/tree/753b779a19e70d8e55247c2c57c08e4553ea50e6) | Public microsite source | 3 completed merchant interviews | [Paper](https://github.com/jonathanbabec5-hash/potify-glp-initiative/blob/753b779a19e70d8e55247c2c57c08e4553ea50e6/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-glp-initiative/blob/753b779a19e70d8e55247c2c57c08e4553ea50e6/docs/MARKETING.md) |
-| [Green Light Pay Merchant Sandbox](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/tree/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e) | Recovered merchant client | 3 merchant workflow corrections | [Paper](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e/docs/MARKETING.md) |
-| [Green Light Pay Wallet Connection](https://github.com/jonathanbabec5-hash/potify-glp-wallet-connect/tree/754b24425ffb331ea55d37791b882874287f5053) | Application source | 3 independent successful fixture runs | [Paper](https://github.com/jonathanbabec5-hash/potify-glp-wallet-connect/blob/754b24425ffb331ea55d37791b882874287f5053/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-glp-wallet-connect/blob/754b24425ffb331ea55d37791b882874287f5053/docs/MARKETING.md) |
-| [Green Light Pay · July Reference Sandbox](https://github.com/jonathanbabec5-hash/potify-glp-reference-sandbox/tree/84dec801bee1b32ef0f0e8ee47a588b924fcba86) | Historical runnable sandbox | 3 independent local reproductions | [Paper](https://github.com/jonathanbabec5-hash/potify-glp-reference-sandbox/blob/84dec801bee1b32ef0f0e8ee47a588b924fcba86/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-glp-reference-sandbox/blob/84dec801bee1b32ef0f0e8ee47a588b924fcba86/docs/MARKETING.md) |
-| [Field Card 01](https://github.com/jonathanbabec5-hash/potify-field-card/tree/26e4e3a7cd5b7bc28babc026d202fbb4040ed57f) | Printable publication and reading pages | 10 confirmed downloads | [Paper](https://github.com/jonathanbabec5-hash/potify-field-card/blob/26e4e3a7cd5b7bc28babc026d202fbb4040ed57f/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-field-card/blob/26e4e3a7cd5b7bc28babc026d202fbb4040ed57f/docs/MARKETING.md) |
-| [Premiere Herbarium](https://github.com/jonathanbabec5-hash/potify-premiere-herbarium/tree/7e1e291dc2714850e0ab4e7b7e062631a8b740d4) | Art collection and metadata exhibit | 10 visitors inspect at least two pieces | [Paper](https://github.com/jonathanbabec5-hash/potify-premiere-herbarium/blob/7e1e291dc2714850e0ab4e7b7e062631a8b740d4/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-premiere-herbarium/blob/7e1e291dc2714850e0ab4e7b7e062631a8b740d4/docs/MARKETING.md) |
-| [Signal Drop 001](https://github.com/jonathanbabec5-hash/potify-signal-drop/tree/60def113922c3933b29f3cb543dcc160e39e3f1b) | QR component and decoding test | 5 witnessed successful scans | [Paper](https://github.com/jonathanbabec5-hash/potify-signal-drop/blob/60def113922c3933b29f3cb543dcc160e39e3f1b/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-signal-drop/blob/60def113922c3933b29f3cb543dcc160e39e3f1b/docs/MARKETING.md) |
-| [The POTIFY Chronicles](https://github.com/jonathanbabec5-hash/potify-chronicles/tree/ac44d60975c26378c50752324ed798b63b45c929) | Original Book I text, reader source and offline edition | 12 engaged readers | [Paper](https://github.com/jonathanbabec5-hash/potify-chronicles/blob/ac44d60975c26378c50752324ed798b63b45c929/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-chronicles/blob/ac44d60975c26378c50752324ed798b63b45c929/docs/MARKETING.md) |
-| [POTIFY Public Treasury Record](https://github.com/jonathanbabec5-hash/potify-treasury-record/tree/a137d5d5bc2f3d324bab1bd83417e50caae509e4) | New public reporting specification | 3 independently reproducible checks | [Paper](https://github.com/jonathanbabec5-hash/potify-treasury-record/blob/a137d5d5bc2f3d324bab1bd83417e50caae509e4/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-treasury-record/blob/a137d5d5bc2f3d324bab1bd83417e50caae509e4/docs/MARKETING.md) |
-
-## Run the directory checks
-
-Local verification uses Python 3.10+ and the standard library. Remote verification also needs an authenticated GitHub CLI. It reads public metadata and compares the owner, visibility, branch, commit and tree.
+Run the commands from the root of this standalone edition. Python 3.10+ and access to a Solana JSON-RPC endpoint are the only requirements. Reading the examples and running the cost model work offline.
 
 ```sh
-git clone https://github.com/jonathanbabec5-hash/potify-public-builds.git
-cd potify-public-builds
-python3 -m unittest discover -s tests
-python3 tools/verify.py
-python3 tools/verify.py --remote
+python3 -m unittest discover -s tests -v
+python3 -m potify_tuktuk scan --limit 24 --out sample.json
+python3 -m potify_tuktuk scan --hours 24 --limit 32 --out day.json
+python3 -m potify_tuktuk verify examples/day.json
+python3 -m potify_tuktuk model examples/day.json --failed-fee-lamports 5000 --daily-cost-lamports 0 --attempts-per-day 100
 ```
 
-## Contribute
+Set `SOLANA_RPC_URL` to use a different endpoint. Reads require transaction history and verify the mainnet genesis hash. Network fees are zero for the observer. An RPC or hosting provider may charge for its services. On a rate limit or unavailable transaction, the observer retries, marks missing records and exits with a nonzero status. For older consecutive pages pass the final signature of the previous page to `scan --before`.
 
-Report the project, revision, device and the steps you actually tried. Project-specific changes belong in the corresponding repository. Use an issue in this directory for an incorrect mapping, scope or missing public release. See [Updating the public directory](docs/CONTRIBUTING.md).
+The [portfolio integration](https://github.com/jonathanbabec5-hash/potify-public-builds/pull/2) carries the GitHub Actions workflow for this observer. Agents can read the committed JSON directly or consume the CLI's JSON output.
+
+## What the numbers mean
+
+- A recognized job is an outer `RunTaskV0` instruction for the TukTuk program. The signer account in that instruction is the worker. One transaction can contain several jobs. An instruction that calls TukTuk only through another program is outside this decoder's coverage.
+- A verified reward comes from a completed transaction with an unambiguous payout logged inside that outer TukTuk invocation. Unavailable logs yield an unknown amount. Failed transactions roll back their job payouts. The fee payer may still incur a fee.
+- A win enters the cost model if it contains one job, the signer pays the fee, the other outer instructions are budget or Ed25519 verification, and the signer's balance increases by exactly the payout minus the network fee (a negative change is possible). Sponsored executions, rent changes or bundled transfers can make other transactions unsuitable.
+- In a time-window scan the tool first pages through program signatures, splits them into equal-count chronological groups, and samples one signature per group using a seed. The full signature count measures program activity. Only decoded transactions establish paid work. `verify` refetches the saved signatures and recalculates transaction fields and totals. The window metadata records the original crawl.
+- Break-even uses the mean reconciled win, an assumed fee for a landed failure, daily hosting/RPC costs and attempts per day. At a win probability of `p`, expected net per attempt is `p × mean_win_net − (1 − p) × failed_fee − daily_cost / attempts`. Units are lamports, with one billion lamports per SOL. For a mix of fee-charging and uncharged losses, enter their average cost. The chain cannot reveal every competing attempt that never landed. Observed market share and a newcomer's win probability answer different questions.
+
+## Operate the worker
+
+The settlement implementation is Helium's pinned TukTuk crank turner 0.2.31. The optional [Docker Compose profile](operator/compose.yaml) runs that executable on a Linux/amd64 host. It watches existing queues and sends signed transactions. Jobs pay the crank-turner signer directly. Queue creation and its deposit are unnecessary for this role.
+
+The operator supplies a **dedicated, limited-balance Solana keypair** from the host and an RPC endpoint with working WebSocket subscriptions. Keep any treasury key or recovery phrase out of this repository and out of GitHub Actions. The amount available to a continuously running signer can be consumed by failed attempts. The fee settings apply to individual work and do not enforce a daily budget.
+
+```sh
+# Set SOLANA_RPC_URL and POTIFY_WORKER_KEYPAIR_FILE in the operator's environment.
+# Validate the configuration without starting a worker.
+docker compose -f operator/compose.yaml --profile operator config --quiet
+
+# Start a signing worker in the foreground. This can spend SOL.
+docker compose -f operator/compose.yaml --profile operator up worker
+```
+
+Stop the foreground worker with Ctrl-C. Its service has no restart policy. The example requests a 15,000-lamport minimum reward, configures a 12,000-lamport fee ceiling and disables extra application retries and re-signs. Review [the configuration](operator/config.toml) against current fee conditions. A live trial would require its own record of attempts, paid wins, failed fees, RPC cost and hosting cost to establish POTIFY's net earnings.
+
+## Files
+
+```text
+tuktuk-worker/
+  README.md
+  .gitignore
+  requirements.txt
+  potify_tuktuk/
+    __init__.py
+    __main__.py
+    decode.py
+    report.py
+    rpc.py
+    window.py
+  operator/
+    compose.yaml
+    config.toml
+  examples/
+    RESULTS.md
+    day.json
+    mainnet.json
+  tests/
+    fixtures/run.json
+    test_worker.py
+```
+
+The root workflow is at [potify-tuktuk.yml](../.github/workflows/potify-tuktuk.yml). The decoder follows the [on-chain account order and payout code](https://github.com/helium/tuktuk/blob/014ae27e567b472d3911bd3156340571d5d485a7/solana-programs/programs/tuktuk/src/instructions/run_task_v0.rs).

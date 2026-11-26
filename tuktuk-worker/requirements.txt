@@ -1,1 +1,0 @@
-# Python 3.10 or newer. The observer has no third-party dependencies.

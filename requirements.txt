@@ -1,2 +1,1 @@
-# Python 3.10+. Local checks use only the standard library.
-# Optional remote verification uses an authenticated GitHub CLI (gh).
+# Python 3.10 or newer. The observer has no third-party dependencies.
