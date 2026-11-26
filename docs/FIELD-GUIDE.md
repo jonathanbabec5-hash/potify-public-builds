@@ -361,6 +361,15 @@ Trace a fictional code through the source and point out the first place a partic
 
 [Repository](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/tree/648d56e3be4f58a72c4a7c67854042ae407c688b) · [Source ZIP](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/archive/648d56e3be4f58a72c4a7c67854042ae407c688b.zip) · [Engineering or editorial paper](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/blob/648d56e3be4f58a72c4a7c67854042ae407c688b/docs/WHITEPAPER.md) · [Recorded checks](https://github.com/jonathanbabec5-hash/potify-spin-to-win-guide/blob/648d56e3be4f58a72c4a7c67854042ae407c688b/docs/BUILD-LOG.md)
 
+### POTIFY Shortcut Studio
+
+**Can another iPhone user tell exactly what this shortcut will do?**
+
+A shortcut is easier to trust when its trigger, inputs and actions are visible before anyone imports it. Describe a small routine, review the proposed plan, then change one action and inspect what the validator does. Use a synthetic example that contains no personal shortcut history. [Planner source](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/artifacts/api-server/src/lib/shortcuts/planner.ts) · [Verification](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/SOURCE-REVIEW.md)
+
+A useful contribution is a minimal prompt, its expected action sequence and the first point where the plan becomes ambiguous. Keep a physical iPhone import result distinct from a passing source test. [Download this revision](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/archive/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f.zip) · [Engineering paper](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/WHITEPAPER.md) · [Marketing and sales plan](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/PILOT-MARKETING.md)
+
+
 ## Make editorial work checkable
 
 ### POTIFY Dispatch Console

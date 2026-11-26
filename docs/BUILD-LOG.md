@@ -32,3 +32,7 @@ The [Roots Agent Gateway](https://github.com/jonathanbabec5-hash/potify-roots-ag
 ## November 26 · original Replit sources restored
 
 The [Plant Doctor restore](https://github.com/jonathanbabec5-hash/potify-plant-doctor/pull/2) passed a clean Node.js install, type checking, a production build and key-free smoke checks. It includes the original leaf artwork and a new SVG favicon. The [Green Light Pay merchant restore](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/pull/2) reunites the original server and 12 matching frontend assets. It passed 99 offline tests and the desktop and mobile Chromium workflows. The audited source pins remain in the historical example map.
+
+## November 26 · POTIFY Shortcut Studio
+
+Replit identifies the original Shortcut Assistant workspace as POTIFY Shortcut Studio. The [public edition](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/tree/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f) and its portfolio entry preserve the actual source, synthetic examples, contributor entry points and release plans. A fresh checkout built all workspaces. With an isolated PostgreSQL database, 307 API tests and nine UI-builder tests passed. The compiled health endpoint returned HTTP 200. [Project verification](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/SOURCE-REVIEW.md) · [Proposed pilot](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/PILOT-MARKETING.md)

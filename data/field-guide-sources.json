@@ -525,5 +525,20 @@
     "build_log": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/examples/RESULTS.md",
     "directory": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/DIRECTORY.md",
     "guide_question": "Who kept the reward after the transaction fee?"
+  },
+  {
+    "project": "POTIFY Shortcut Studio",
+    "repository": "potify-shortcut-assistant",
+    "release_branch": "main",
+    "source_commit": "7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f",
+    "source_tree": "8513f0e469d013ca60c2b1efd1a6f346499cf1c7",
+    "source": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/tree/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f",
+    "source_archive": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/archive/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f.zip",
+    "public_example": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/artifacts/api-server/src/lib/shortcuts/planner.ts",
+    "public_example_blob": "c09dd0abd8bf8c113cd8a358a86b9e6ce12256c2",
+    "paper": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/WHITEPAPER.md",
+    "build_log": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/SOURCE-REVIEW.md",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/DIRECTORY.md",
+    "guide_question": "Can another iPhone user tell exactly what this shortcut will do?"
   }
 ]

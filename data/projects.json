@@ -168,16 +168,16 @@
     "title": "Potify Command Center",
     "repository": "potify-command-center-handoff",
     "branch": "main",
-    "commit": "4b46fe5f0f63d9b204e0585c41e7362645fb8059",
-    "tree": "aacd1b06841a824837be3fada3e02eaae3fc1402",
+    "commit": "603dd7c50ffd38e33fd0e1d2a6cef1dc7bfb4ace",
+    "tree": "68aa8874fd26a523f7d5abca15f5d4ad4c6faf42",
     "area": "Creator operations",
     "purpose": "Identify the original command-center system and the interfaces that can safely be shared.",
-    "scope": "Public specification · original source pending",
+    "scope": "Public handoff specification for a workspace created by a separate maintainer",
     "first_target": "1 verified source handoff",
-    "whitepaper": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/4b46fe5f0f63d9b204e0585c41e7362645fb8059/docs/WHITEPAPER.md",
-    "marketing": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/4b46fe5f0f63d9b204e0585c41e7362645fb8059/docs/MARKETING.md",
-    "directory": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/4b46fe5f0f63d9b204e0585c41e7362645fb8059/docs/DIRECTORY.md",
-    "documentation_pr": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/pull/1"
+    "whitepaper": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/603dd7c50ffd38e33fd0e1d2a6cef1dc7bfb4ace/docs/WHITEPAPER.md",
+    "marketing": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/603dd7c50ffd38e33fd0e1d2a6cef1dc7bfb4ace/docs/MARKETING.md",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/blob/603dd7c50ffd38e33fd0e1d2a6cef1dc7bfb4ace/docs/DIRECTORY.md",
+    "documentation_pr": "https://github.com/jonathanbabec5-hash/potify-command-center-handoff/pull/2"
   },
   {
     "title": "The Living Archive",
@@ -521,5 +521,19 @@
     "directory": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/DIRECTORY.md",
     "whitepaper": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/WHITEPAPER.md",
     "marketing": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/MARKETING.md"
+  },
+  {
+    "title": "POTIFY Shortcut Studio",
+    "repository": "potify-shortcut-assistant",
+    "branch": "main",
+    "commit": "7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f",
+    "tree": "8513f0e469d013ca60c2b1efd1a6f346499cf1c7",
+    "area": "Developer tools",
+    "purpose": "Turn a routine described in plain language into a structured iOS Shortcut plan, validate the actions and review the export.",
+    "scope": "Public developer edition of the iOS Shortcuts builder, validator and exporter",
+    "first_target": "Five independent builds by day 30 and one paid two-week consultancy pilot by day 45",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/DIRECTORY.md",
+    "whitepaper": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/WHITEPAPER.md",
+    "marketing": "https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/PILOT-MARKETING.md"
   }
 ]
