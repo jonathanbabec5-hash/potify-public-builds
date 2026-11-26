@@ -493,5 +493,35 @@
     "build_log": "https://github.com/jonathanbabec5-hash/potify-treasury-record/blob/a137d5d5bc2f3d324bab1bd83417e50caae509e4/docs/BUILD-LOG.md",
     "directory": "https://github.com/jonathanbabec5-hash/potify-treasury-record/blob/a137d5d5bc2f3d324bab1bd83417e50caae509e4/docs/DIRECTORY.md",
     "guide_question": "What ‘pending’ ought to look like"
+  },
+  {
+    "project": "POTIFY Roots Agent Gateway",
+    "repository": "potify-roots-agent-gateway",
+    "release_branch": "main",
+    "source_commit": "bd58b74a4d3778964a824555349609f85def79a0",
+    "source_tree": "7de90caf08f1d5ac5fb1d9c7dbd5a8874c3e482c",
+    "source": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/tree/bd58b74a4d3778964a824555349609f85def79a0",
+    "source_archive": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/archive/bd58b74a4d3778964a824555349609f85def79a0.zip",
+    "public_example": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/src/reclaim-scanner.ts",
+    "public_example_blob": "c39c3c984dd5dfc12c6c694eb33f4c73f89a3895",
+    "paper": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/WHITEPAPER.md",
+    "build_log": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/SOURCES.md",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/DIRECTORY.md",
+    "guide_question": "What does an agent learn from a public address?"
+  },
+  {
+    "project": "POTIFY TukTuk Worker",
+    "repository": "potify-tuktuk-worker",
+    "release_branch": "main",
+    "source_commit": "30c986d5625b3b38f76eea63a212983987b3b587",
+    "source_tree": "4f675142a9d1ec96fe4b346c3fc54590f3be3b31",
+    "source": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/tree/30c986d5625b3b38f76eea63a212983987b3b587",
+    "source_archive": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/archive/30c986d5625b3b38f76eea63a212983987b3b587.zip",
+    "public_example": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/potify_tuktuk/decode.py",
+    "public_example_blob": "8ef14b364560757e0e797c4c94202aa1c781fa40",
+    "paper": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/WHITEPAPER.md",
+    "build_log": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/examples/RESULTS.md",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/DIRECTORY.md",
+    "guide_question": "Who kept the reward after the transaction fee?"
   }
 ]

@@ -493,5 +493,33 @@
     "marketing": "https://github.com/jonathanbabec5-hash/potify-treasury-record/blob/9dae0d2629142e983a5ba34ac5ffe3b6bb4bf17b/docs/MARKETING.md",
     "directory": "https://github.com/jonathanbabec5-hash/potify-treasury-record/blob/9dae0d2629142e983a5ba34ac5ffe3b6bb4bf17b/docs/DIRECTORY.md",
     "documentation_pr": "https://github.com/jonathanbabec5-hash/potify-treasury-record/pull/1"
+  },
+  {
+    "title": "POTIFY Roots Agent Gateway",
+    "repository": "potify-roots-agent-gateway",
+    "branch": "main",
+    "commit": "bd58b74a4d3778964a824555349609f85def79a0",
+    "tree": "7de90caf08f1d5ac5fb1d9c7dbd5a8874c3e482c",
+    "area": "Solana developer tools",
+    "purpose": "Give agents a read-only estimate of rent in eligible empty token accounts over HTTP and MCP.",
+    "scope": "Standalone read-only gateway with local tests and a devnet payment experiment",
+    "first_target": "5 independent tool calls, then 1 verified paid pilot",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/DIRECTORY.md",
+    "whitepaper": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/WHITEPAPER.md",
+    "marketing": "https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/MARKETING.md"
+  },
+  {
+    "title": "POTIFY TukTuk Worker",
+    "repository": "potify-tuktuk-worker",
+    "branch": "main",
+    "commit": "30c986d5625b3b38f76eea63a212983987b3b587",
+    "tree": "4f675142a9d1ec96fe4b346c3fc54590f3be3b31",
+    "area": "Solana developer tools",
+    "purpose": "Replay finalized job payouts and distinguish gross rewards from the amount the winning worker retained.",
+    "scope": "Read-only Python observer, offline samples and optional operator configuration",
+    "first_target": "3 independent replays, then 1 paid and accepted queue report",
+    "directory": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/DIRECTORY.md",
+    "whitepaper": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/WHITEPAPER.md",
+    "marketing": "https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/MARKETING.md"
   }
 ]

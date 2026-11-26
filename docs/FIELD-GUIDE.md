@@ -1,6 +1,6 @@
 # The POTIFY project field guide
 
-**Seed → Soil → Solana.** Start anywhere. Each chapter tells you why a project exists, opens the actual source behind one detail and offers a first contribution. The links point to the public revisions inspected on November 25, 2026. A published source file proves that file exists. Tests, reader responses and live services each need their own evidence.
+**Seed → Soil → Solana.** Start anywhere. Each chapter tells you why a project exists, opens the actual source behind one detail and offers a first contribution. The links point to public revisions inspected on November 25 and 26, 2026. A published source file proves that file exists. Tests, reader responses and live services each need their own evidence.
 
 1. [Keep a field note](#keep-a-field-note)
 2. [Build a neighborhood](#build-a-neighborhood)
@@ -9,6 +9,7 @@
 5. [Study a fictional checkout](#study-a-fictional-checkout)
 6. [Find the right doorway](#find-the-right-doorway)
 7. [Make editorial work checkable](#make-editorial-work-checkable)
+8. [Inspect work on Solana](#inspect-work-on-solana)
 
 ## Keep a field note
 
@@ -419,5 +420,24 @@ The [episode worksheet](https://github.com/jonathanbabec5-hash/potify-wake-and-b
 Use the example to trace a single price statement back to its chart and time. If it cannot be traced, leave it unknown and suggest the missing source field. This review concerns editorial evidence; it makes no trading call or promise.
 
 [Repository](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/tree/a544bf4e6897dab412451753a3d67fd1eb7928e4) · [Source ZIP](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/archive/a544bf4e6897dab412451753a3d67fd1eb7928e4.zip) · [Engineering or editorial paper](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/blob/a544bf4e6897dab412451753a3d67fd1eb7928e4/docs/WHITEPAPER.md) · [Recorded checks](https://github.com/jonathanbabec5-hash/potify-wake-and-bake/blob/a544bf4e6897dab412451753a3d67fd1eb7928e4/docs/BUILD-LOG.md)
+
+## Inspect work on Solana
+
+### POTIFY Roots Agent Gateway
+
+**What does an agent learn from a public address?**
+
+Keep an address fixed in a synthetic fixture and change the account’s close authority. Does that account still qualify? Compare the result from the scanner with the summary the HTTP or MCP client receives. The gateway reports gross lamports. Its devnet challenge and five-call target are separate from a paid customer result.
+
+[Source example](https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/src/reclaim-scanner.ts) · [Download this revision](https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/archive/bd58b74a4d3778964a824555349609f85def79a0.zip) · [Whitepaper](https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/WHITEPAPER.md) · [Marketing and sales plan](https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway/blob/bd58b74a4d3778964a824555349609f85def79a0/docs/MARKETING.md)
+
+### POTIFY TukTuk Worker
+
+**Who kept the reward after the transaction fee?**
+
+Pick a saved transaction and trace a single job from its instruction through the payout log to the fee payer. A transaction can contain multiple jobs. If the evidence is ambiguous, record the unknown. This is how a queue maintainer can test a proposed reporting service against the public record.
+
+[Source example](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/potify_tuktuk/decode.py) · [Download this revision](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/archive/30c986d5625b3b38f76eea63a212983987b3b587.zip) · [Whitepaper](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/WHITEPAPER.md) · [Marketing and sales plan](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/blob/30c986d5625b3b38f76eea63a212983987b3b587/docs/MARKETING.md)
+
 
 [Follow the builder on GitHub](https://github.com/jonathanbabec5-hash). A report that names a revision and one reproducible observation gives the next reader something useful to come back for.
