@@ -174,9 +174,9 @@
     "commit": "bce3c6acddd59662809f0d286dbc04860ef98a95",
     "tree": "97a22f0d03a8231ebf652a11504861c11b962d0b",
     "area": "Culture and grow records",
-    "purpose": "Make the full Seed → New Cycle journey explorable as an illustrated archive.",
-    "scope": "Application source",
-    "first_target": "12 readers reach three stages",
+    "purpose": "Document the stage model for maintainers while keeping the Living Archive private.",
+    "scope": "Technical source reference; the Living Archive remains private.",
+    "first_target": "Owner review of access and campaign wording; no public readership target.",
     "whitepaper": "https://github.com/jonathanbabec5-hash/potify-living-archive/blob/bce3c6acddd59662809f0d286dbc04860ef98a95/docs/WHITEPAPER.md",
     "marketing": "https://github.com/jonathanbabec5-hash/potify-living-archive/blob/bce3c6acddd59662809f0d286dbc04860ef98a95/docs/MARKETING.md",
     "directory": "https://github.com/jonathanbabec5-hash/potify-living-archive/blob/bce3c6acddd59662809f0d286dbc04860ef98a95/docs/DIRECTORY.md"
@@ -322,7 +322,7 @@
     "directory": "https://github.com/jonathanbabec5-hash/potify-grow-room-sessions/blob/b69c60ebe2b4d0c715e58909389f8d875fb8ba5d/docs/DIRECTORY.md"
   },
   {
-    "title": "Wake & Bake POTIFY Price Update",
+    "title": "Wake and Bake POTIFY Price Update",
     "repository": "potify-wake-and-bake",
     "branch": "main",
     "commit": "a544bf4e6897dab412451753a3d67fd1eb7928e4",
@@ -406,15 +406,15 @@
     "directory": "https://github.com/jonathanbabec5-hash/potify-field-card/blob/26e4e3a7cd5b7bc28babc026d202fbb4040ed57f/docs/DIRECTORY.md"
   },
   {
-    "title": "Premiere Herbarium",
+    "title": "First Cycle premiere NFT design source",
     "repository": "potify-premiere-herbarium",
     "branch": "main",
     "commit": "7e1e291dc2714850e0ab4e7b7e062631a8b740d4",
     "tree": "a42a805fd26c7b89320bb31afac16c05b585ec84",
     "area": "Publishing",
-    "purpose": "Let visitors examine the twenty-five premiere designs while claims are paused.",
-    "scope": "Art collection and metadata exhibit",
-    "first_target": "10 visitors inspect at least two pieces",
+    "purpose": "Support Book I of The POTIFY Chronicle, The Soil Remembers (Grow Room Version) and the From Seed to Smoke premiere NFT.",
+    "scope": "25 individual NFT designs and collection metadata; issuance is unverified.",
+    "first_target": "Support the free-edition reading and listening path; measure actual visits separately.",
     "whitepaper": "https://github.com/jonathanbabec5-hash/potify-premiere-herbarium/blob/7e1e291dc2714850e0ab4e7b7e062631a8b740d4/docs/WHITEPAPER.md",
     "marketing": "https://github.com/jonathanbabec5-hash/potify-premiere-herbarium/blob/7e1e291dc2714850e0ab4e7b7e062631a8b740d4/docs/MARKETING.md",
     "directory": "https://github.com/jonathanbabec5-hash/potify-premiere-herbarium/blob/7e1e291dc2714850e0ab4e7b7e062631a8b740d4/docs/DIRECTORY.md"
