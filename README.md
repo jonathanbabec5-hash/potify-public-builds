@@ -16,10 +16,12 @@ A yellow leaf, a pencilled name on a seed packet, a rooftop lease: these are sma
 
 [Read the field guide to all 33 projects](docs/FIELD-GUIDE.md) · [Get the public data and source map](data/field-guide-sources.json) · [Follow the builder on GitHub](https://github.com/jonathanbabec5-hash) for the next documented change. For a correction, name the project, revision, expected result and what you observed. Keep personal and production data out of public reports.
 
-## Two more places to see the work
+## More development branches and original work
 
 - **POTIFY City.** The November 8 campaign pairs the original artwork with the copy that introduced the game. Compare it with the rooftop story to see which ideas reached the playable build. [Original campaign and artwork](https://github.com/jonathanbabec5-hash/Potify/blob/9baf8ed8646080b5411101abf19e1c3fda6d0eb0/docs/marketing/2026-11-08-original-campaign.md)
 - **POTIFY Roots Agent Gateway.** This companion to Project Reclaim exposes a read-only wallet preview for agents over HTTP and MCP. Its launch plan proposes five independent tool calls before a paid pilot. The standalone edition includes the scanner and runs with a single install. Seven offline tests passed and payments default to disabled. [Standalone source, tests and launch plan](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/tree/514c265d86a43ecca39cd1a83673d05bf58bd211) · [Original integration](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/tree/c73d2688451bfe5f8010865a6712e5d6050e7d72/agent-gateway)
+
+- **POTIFY TukTuk worker.** Replay finalized job payouts and check how much the winner retained after fees. This observer includes the raw examples, tests, technical paper and a proposed queue-owner reporting pilot. The recorded payouts went to other workers. [Standalone observer and project plans](https://github.com/jonathanbabec5-hash/potify-public-builds/tree/c3aa1574059215335e260486b206eb256560c59b) · [Portfolio integration](https://github.com/jonathanbabec5-hash/potify-public-builds/pull/2)
 
 ## Project directory
 
