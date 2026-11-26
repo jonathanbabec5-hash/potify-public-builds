@@ -1,5 +1,7 @@
 # POTIFY TukTuk worker
 
+[Complete project directory](docs/DIRECTORY.md) · [Technical whitepaper](docs/WHITEPAPER.md) · [Marketing and sales plan](docs/MARKETING.md)
+
 An application posts a scheduled job to a TukTuk queue and funds a reward. Independent workers compete to execute it on Solana. The successful worker receives SOL in the same transaction. This gives POTIFY a place to find paid work without signing up each application as a customer. The identity of the software that requested a job is generally unknown.
 
 [Mainnet results](examples/RESULTS.md) · [Full-day sample](examples/day.json) · [Consecutive transactions](examples/mainnet.json) · [Upstream protocol](https://github.com/helium/tuktuk)
