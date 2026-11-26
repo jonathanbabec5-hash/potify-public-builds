@@ -25,7 +25,7 @@ Keep a fictional plant, its stage and its symptoms fixed. Change only the moistu
 
 The [Original Replit application](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/ed16e3d730bc6f91935e8e8d0756c864d28c589e/replit-source/plant-doctor/) now builds outside Replit with its restored original hero artwork. The key-free status route reports 46 causes and 9 interactions. These belong to a separate implementation from the 37 authored standalone profiles and the 313 website condition records.
 
-[Repository](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28) · [Source ZIP](https://github.com/jonathanbabec5-hash/potify-plant-doctor/archive/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28.zip) · [Engineering or editorial paper](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28/docs/WHITEPAPER.md) · [Recorded checks](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28/docs/BUILD-LOG.md)
+[Repository](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/ed16e3d730bc6f91935e8e8d0756c864d28c589e) · [Source ZIP](https://github.com/jonathanbabec5-hash/potify-plant-doctor/archive/ed16e3d730bc6f91935e8e8d0756c864d28c589e.zip) · [Engineering or editorial paper](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/ed16e3d730bc6f91935e8e8d0756c864d28c589e/docs/WHITEPAPER.md) · [Recorded checks](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/ed16e3d730bc6f91935e8e8d0756c864d28c589e/docs/BUILD-LOG.md)
 
 ### Plant Health Journal
 
@@ -285,7 +285,7 @@ Start a fictional sale at the counter, hand it to a customer, and follow it thro
 
 One useful first contribution is to change the expected total in a synthetic fixture and record which transition catches the difference. A clean install passed 99 offline tests. Browser checks covered direct terminal navigation, command entry and transaction-filter focus at desktop and mobile viewport sizes. The authorized demonstration uses fictional records. [Run the recovered release](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/aaf3e77e990942f36a4cc61004074dad179a806f/README.md)
 
-[Repository](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/tree/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e) · [Source ZIP](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/archive/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e.zip) · [Engineering or editorial paper](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e/docs/WHITEPAPER.md) · [Recorded checks](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/9bfc7ce9e4b5770e0cc4fc037d0d021f5b354c7e/docs/BUILD-LOG.md)
+[Repository](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/tree/aaf3e77e990942f36a4cc61004074dad179a806f) · [Source ZIP](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/archive/aaf3e77e990942f36a4cc61004074dad179a806f.zip) · [Engineering or editorial paper](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/aaf3e77e990942f36a4cc61004074dad179a806f/docs/WHITEPAPER.md) · [Recorded checks](https://github.com/jonathanbabec5-hash/potify-glp-merchant-sandbox/blob/aaf3e77e990942f36a4cc61004074dad179a806f/docs/BUILD-LOG.md)
 
 ### Green Light Pay Wallet Connection
 
