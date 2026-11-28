@@ -36,3 +36,7 @@ The [Plant Doctor restore](https://github.com/jonathanbabec5-hash/potify-plant-d
 ## November 26 · POTIFY Shortcut Studio
 
 Replit identifies the original Shortcut Assistant workspace as POTIFY Shortcut Studio. The [public edition](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/tree/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f) and its portfolio entry preserve the actual source, synthetic examples, contributor entry points and release plans. A fresh checkout built all workspaces. With an isolated PostgreSQL database, 307 API tests and nine UI-builder tests passed. The compiled health endpoint returned HTTP 200. [Project verification](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/SOURCE-REVIEW.md) · [Proposed pilot](https://github.com/jonathanbabec5-hash/potify-shortcut-assistant/blob/7fb01bd876abf781dc0a619b8d60b20bf5bd4f7f/docs/PILOT-MARKETING.md)
+
+## November 28 · Public directory refresh
+
+Verified the release branch and file tree for all 36 catalog entries. Updated 35 release revisions and checked the directory, whitepaper and marketing-plan links for every project. The Roof 7B entry still points to its designated developer edition. Earlier field-guide examples retain their historical revisions.
