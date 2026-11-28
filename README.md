@@ -1,5 +1,37 @@
 # POTIFY public builds
 
+> **Seed → Soil → Solana.** A connected collection of growing tools, stories, games, community experiments and developer projects.
+
+## Choose your path
+
+| You are interested in… | Start here | What you will find |
+| --- | --- | --- |
+| Growing and plant health | [Plant Doctor](https://github.com/jonathanbabec5-hash/potify-plant-doctor) · [Plant Health Journal](https://github.com/jonathanbabec5-hash/potify-plant-health) | Diagnostic rules and a local observation journal |
+| A life-sim world | [POTIFY City game](https://github.com/jonathanbabec5-hash/Potify) · [World Bible](https://github.com/jonathanbabec5-hash/potify-city-canon) | A playable baseline and a separate design registry |
+| Stories, music and film | [The First Cycle](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition) · [Chronicles](https://github.com/jonathanbabec5-hash/potify-chronicles) · [From Seed to Smoke](https://github.com/jonathanbabec5-hash/potify-seed-to-smoke) | A public reading and listening edition and film preview |
+| Community and identity | [Greenhouse](https://github.com/jonathanbabec5-hash/potify-holder-hub) · [Potify ID](https://github.com/jonathanbabec5-hash/potify-id) | A local community beta and a separate identity pilot |
+| Wallets and payments | [Project Reclaim](https://github.com/jonathanbabec5-hash/potify-reclaim-developer) · [Green Light Pay](https://github.com/jonathanbabec5-hash/potify-green-light-pay) | Wallet recovery source and a payment simulation |
+| Agents and Solana | [Roots Agent Gateway](https://github.com/jonathanbabec5-hash/potify-roots-agent-gateway) · [TukTuk observer](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker) | A read-only wallet preview and a job-payout observer |
+| Publishing and operations | [Operations Workflow](https://github.com/jonathanbabec5-hash/potify-operations-workflow) · [Dispatch Console](https://github.com/jonathanbabec5-hash/potify-dispatch-console-reference) | Review-state logic and a local reference app |
+
+These are **discovery paths**, not claims that the projects are integrated or deployed together. Each project explains its own evidence and limitations. [Browse the full field guide](docs/FIELD-GUIDE.md) for the wider collection.
+
+### How the collection fits together
+
+```mermaid
+flowchart TD
+    A["POTIFY public builds"] --> B["Grow and observe"]
+    A --> C["Play and explore"]
+    A --> D["Read, listen and watch"]
+    A --> E["Build and contribute"]
+    B --> F["Plant Doctor · Health Journal"]
+    C --> G["POTIFY City · World Bible"]
+    D --> H["First Cycle · Chronicles · Film"]
+    E --> I["Identity · Wallets · Operations"]
+```
+
+[How we chose these navigation patterns](docs/GITHUB-PRESENTATION-GUIDE.md)
+
 [Full repository tree](docs/DIRECTORY.md) · [Portfolio whitepaper](docs/WHITEPAPER.md) · [Marketing and sales plan](docs/MARKETING.md) · [Build log](docs/BUILD-LOG.md)
 
 ## Find a project worth your next five minutes
