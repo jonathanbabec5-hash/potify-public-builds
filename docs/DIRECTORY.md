@@ -10,7 +10,9 @@ potify-public-builds/
 │   ├── CONTRIBUTING.md
 │   ├── DIRECTORY.md
 │   ├── FIELD-GUIDE.md
+│   ├── GITHUB-PRESENTATION-GUIDE.md
 │   ├── MARKETING.md
+│   ├── PROJECT-INDEX.md
 │   └── WHITEPAPER.md
 ├── tests/
 │   └── test_catalog.py

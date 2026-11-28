@@ -2,6 +2,8 @@
 
 > **Seed → Soil → Solana.** A connected collection of growing tools, stories, games, community experiments and developer projects.
 
+[Browse all 36 public projects by category](docs/PROJECT-INDEX.md) · [Read the field guide](docs/FIELD-GUIDE.md)
+
 ## Choose your path
 
 | You are interested in… | Start here | What you will find |
@@ -56,6 +58,9 @@ A yellow leaf, a pencilled name on a seed packet, a rooftop lease: these are sma
 - **POTIFY TukTuk worker.** Replay finalized job payouts and check how much the winner retained after fees. This observer includes the raw examples, tests, technical paper and a proposed queue-owner reporting pilot. The recorded payouts went to other workers. [Standalone observer and project plans](https://github.com/jonathanbabec5-hash/potify-tuktuk-worker/tree/30c986d5625b3b38f76eea63a212983987b3b587) · [Portfolio integration](https://github.com/jonathanbabec5-hash/potify-public-builds/pull/2)
 
 ## Project directory
+
+[Browse the grouped index with current repository links](docs/PROJECT-INDEX.md). The table below records specific documentation releases; its commit-pinned links may predate current default branches.
+
 
 The 36 entries cover applications, modules, creative editions, reference tools and specifications. Select **Paper** for the engineering or editorial decisions and **Plan** for the audience, proposed offer and sales measurement. The first targets are proposed. The public Command Center entry is a specification; the original workspace identifies a separate creator, whose permission to distribute it is still outstanding.
 
