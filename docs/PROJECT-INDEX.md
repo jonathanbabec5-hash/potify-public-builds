@@ -113,3 +113,9 @@ This index covers 36 public project repositories. [POTIFY Public Builds](../READ
 ## About these links
 
 Repository links open the default branch. The [field guide](FIELD-GUIDE.md) and [source catalog](../data/field-guide-sources.json) retain commit-pinned evidence for the revisions they inspected. A public source repository does not establish a live service, production integration or commercial availability. Consult each README for limitations and recorded checks.
+
+## Checking the records
+
+From the catalog repository, run `python3 -m unittest discover -s tests -v` and `python3 tools/verify.py` for local checks. With the GitHub CLI signed in, `python3 tools/verify.py --snapshot` checks the recorded public commits and trees; `python3 tools/verify.py --remote` also requires each recorded branch still to point to that commit. A changed branch is a review signal, not proof that its historical snapshot is invalid.
+
+The November 28, 2026 reconciliation checked the recorded commits and trees and the recorded branch heads for all 36 catalog entries. POTIFY City’s catalog entry tracks the separate `codex/public-developer-guide` branch, not the game’s default branch. These checks do not establish that a project is deployed, complete or current in every other environment.

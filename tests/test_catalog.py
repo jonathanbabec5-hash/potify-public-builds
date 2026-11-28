@@ -32,3 +32,46 @@ class ProjectIndexTest(unittest.TestCase):
         self.assertEqual(len(found), len(expected))
         self.assertEqual(set(name.casefold() for name in found), set(expected))
         self.assertEqual(len(set(name.casefold() for name in found)), len(found))
+
+
+class RemoteVerificationTest(unittest.TestCase):
+    def setUp(self):
+        self.row = {"repository": "demo", "commit": "a" * 40, "tree": "b" * 40, "branch": "main"}
+        self.info = {"owner": {"login": "jonathanbabec5-hash"}, "visibility": "public"}
+        self.commit = {"sha": "a" * 40, "commit": {"tree": {"sha": "b" * 40}}}
+
+    def test_current_branch_is_verified(self):
+        from unittest.mock import patch
+        from verify import verify_remote
+        branch = {"commit": {"sha": "a" * 40}}
+        with patch("verify.api", side_effect=[self.info, self.commit, branch]):
+            self.assertEqual(verify_remote(self.row), "demo")
+
+    def test_snapshot_accepts_a_historical_commit_without_branch_query(self):
+        from unittest.mock import patch
+        from verify import verify_remote
+        with patch("verify.api", side_effect=[self.info, self.commit]) as api:
+            self.assertEqual(verify_remote(self.row, require_current=False), "demo")
+            self.assertEqual(api.call_count, 2)
+
+    def test_strict_remote_rejects_branch_drift(self):
+        from unittest.mock import patch
+        from verify import verify_remote
+        with patch("verify.api", side_effect=[self.info, self.commit, {"commit": {"sha": "c" * 40}}]):
+            with self.assertRaisesRegex(ValueError, "Branch has changed"):
+                verify_remote(self.row)
+
+    def test_rejects_snapshot_tree_mismatch(self):
+        from unittest.mock import patch
+        from verify import verify_remote
+        wrong = {"sha": "a" * 40, "commit": {"tree": {"sha": "c" * 40}}}
+        with patch("verify.api", side_effect=[self.info, wrong]):
+            with self.assertRaisesRegex(ValueError, "commit or tree mismatch"):
+                verify_remote(self.row, require_current=False)
+
+    def test_rejects_private_repository(self):
+        from unittest.mock import patch
+        from verify import verify_remote
+        with patch("verify.api", return_value={"owner": {"login": "jonathanbabec5-hash"}, "visibility": "private"}):
+            with self.assertRaisesRegex(ValueError, "visibility mismatch"):
+                verify_remote(self.row, require_current=False)
