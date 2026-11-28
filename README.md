@@ -2,7 +2,7 @@
 
 > **Seed → Soil → Solana.** A connected collection of growing tools, stories, games, community experiments and developer projects.
 
-[Browse all 36 public projects by category](docs/PROJECT-INDEX.md) · [Read the field guide](docs/FIELD-GUIDE.md)
+[Browse all 36 projects and try a source example](docs/PROJECT-INDEX.md) · [Read the field guide](docs/FIELD-GUIDE.md)
 
 ## Choose your path
 
@@ -42,7 +42,7 @@ A yellow leaf, a pencilled name on a seed packet, a rooftop lease: these are sma
 
 | If you came for… | Start here | A useful first contribution |
 | --- | --- | --- |
-| Growing | [Plant Doctor](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/63488a0679ccf250bb6dc1ed6ed9f209e3ba8e28/src/diagnosis.ts) | Change moisture in one fictional case. Did the first suggested check change? |
+| Growing | [Plant Doctor moisture example](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/b6c6145d4ede52e23f739c9552729a846d13c78b/examples/compare-moisture.mjs) | Change moisture in one fictional case. Did the first suggested check change? |
 | A world to play in | [Roof 7B’s resident tasks](https://github.com/jonathanbabec5-hash/Potify/blob/1cfb7051dd15b886a25062e6b6831466cbaf3c9b/artifacts/potify-high-life/src/game/story.ts) | Follow a harvest into the lease story and name the first unclear step. |
 | A book, a song, a film | [Open the free edition](https://potify-first-cycle.wile-e-coyot.chatgpt.site/#edition) | Find Book I of The POTIFY Chronicle, listen to *The Soil Remembers (Grow Room Version)* and see if you can return to your passage. The From Seed to Smoke premiere NFT has its own [eligibility and status page](https://potify-first-cycle.wile-e-coyot.chatgpt.site/premiere/). |
 | How wallet estimates are explained | [Project Reclaim’s integer example](https://github.com/jonathanbabec5-hash/potify-reclaim-developer/blob/1de4db4fe232a2e7c6074c1c079509c33fb95fa3/src/quote.mjs) | Work out the net on paper before looking at the answer. No wallet required. |
@@ -66,7 +66,7 @@ The 36 entries cover applications, modules, creative editions, reference tools a
 
 | Project and verified documentation release | Available scope | Proposed first target | Project documents |
 | --- | --- | --- | --- |
-| [Plant Doctor](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/38bf32339efb320e6145d7ea2023334dea147ccc) | Original Replit diagnostic app, standalone rule engine and website condition library | 5 actionable fixture reviews | [Paper](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/38bf32339efb320e6145d7ea2023334dea147ccc/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/38bf32339efb320e6145d7ea2023334dea147ccc/docs/MARKETING.md) · [Tree](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/38bf32339efb320e6145d7ea2023334dea147ccc/docs/DIRECTORY.md) |
+| [Plant Doctor](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/b6c6145d4ede52e23f739c9552729a846d13c78b) | Original Replit diagnostic app, standalone rule engine and website condition library | 5 actionable fixture reviews | [Paper](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/b6c6145d4ede52e23f739c9552729a846d13c78b/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/b6c6145d4ede52e23f739c9552729a846d13c78b/docs/MARKETING.md) · [Tree](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/b6c6145d4ede52e23f739c9552729a846d13c78b/docs/DIRECTORY.md) |
 | [POTIFY City · Roof 7B](https://github.com/jonathanbabec5-hash/Potify/tree/ddb72dda85527bf41b5fd4826adf22afadc6f8a4) | Existing GitHub game and tested developer update | 5 observed first harvests and 3 field-guide opt-ins | [Paper](https://github.com/jonathanbabec5-hash/Potify/blob/ddb72dda85527bf41b5fd4826adf22afadc6f8a4/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/Potify/blob/ddb72dda85527bf41b5fd4826adf22afadc6f8a4/docs/MARKETING.md) · [Tree](https://github.com/jonathanbabec5-hash/Potify/blob/ddb72dda85527bf41b5fd4826adf22afadc6f8a4/docs/DIRECTORY.md) |
 | [The First Cycle Edition](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/tree/dcd4dc2e2526ce3f5341f0b9b81926be99244f3c) | Public edition frontend | 20 qualified edition opens | [Paper](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/blob/dcd4dc2e2526ce3f5341f0b9b81926be99244f3c/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/blob/dcd4dc2e2526ce3f5341f0b9b81926be99244f3c/docs/MARKETING.md) · [Tree](https://github.com/jonathanbabec5-hash/potify-first-cycle-public-edition/blob/dcd4dc2e2526ce3f5341f0b9b81926be99244f3c/docs/DIRECTORY.md) |
 | [Potify ID](https://github.com/jonathanbabec5-hash/potify-id/tree/4fedbe688793f93e3437eaf83a8626096b2c633e) | Two-app pilot and website integration source | 2 external developers reproduce the fixture | [Paper](https://github.com/jonathanbabec5-hash/potify-id/blob/4fedbe688793f93e3437eaf83a8626096b2c633e/docs/WHITEPAPER.md) · [Plan](https://github.com/jonathanbabec5-hash/potify-id/blob/4fedbe688793f93e3437eaf83a8626096b2c633e/docs/MARKETING.md) · [Tree](https://github.com/jonathanbabec5-hash/potify-id/blob/4fedbe688793f93e3437eaf83a8626096b2c633e/docs/DIRECTORY.md) |
