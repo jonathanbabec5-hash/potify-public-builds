@@ -15,6 +15,8 @@
 
 ### Plant Doctor
 
+Try the [runnable moisture comparison](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/b6c6145d4ede52e23f739c9552729a846d13c78b/examples/compare-moisture.mjs). From a checkout of that revision, run `node examples/compare-moisture.mjs` with Node.js 24 to see both suggestions and checks.
+
 **What does a yellow leaf leave out?**
 
 A yellow leaf is a good reason to look closer. On its own it tells a grower remarkably little. Plant Doctor gives the question back to the person standing beside the pot: what else can you actually observe? That small pause is the point of the tool.

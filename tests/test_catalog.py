@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 import sys
 import unittest
@@ -24,7 +25,6 @@ class CatalogTest(unittest.TestCase):
 
 class ProjectIndexTest(unittest.TestCase):
     def test_index_lists_each_project_once(self):
-        import re
         projects = json.loads((ROOT / "data/projects.json").read_text())
         index = (ROOT / "docs/PROJECT-INDEX.md").read_text()
         found = re.findall(r"\]\(https://github\.com/jonathanbabec5-hash/([A-Za-z0-9_.-]+)\)", index)
@@ -32,6 +32,25 @@ class ProjectIndexTest(unittest.TestCase):
         self.assertEqual(len(found), len(expected))
         self.assertEqual(set(name.casefold() for name in found), set(expected))
         self.assertEqual(len(set(name.casefold() for name in found)), len(found))
+
+    def test_each_index_example_opens_a_recorded_revision_of_its_project(self):
+        projects = json.loads((ROOT / "data/projects.json").read_text())
+        sources = json.loads((ROOT / "data/field-guide-sources.json").read_text())
+        examples = {source["repository"]: source["public_example"] for source in sources}
+        releases = {project["repository"]: project["commit"] for project in projects}
+        index = (ROOT / "docs/PROJECT-INDEX.md").read_text()
+        rows = [line for line in index.splitlines() if line.startswith("| [")]
+        self.assertEqual(len(rows), len(projects))
+        for row in rows:
+            project, _, example = row.strip("|").strip().split(" | ")
+            repo_url, = re.findall(r"\]\(([^)]+)\)", project)
+            repo = repo_url.rsplit("/", 1)[-1]
+            with self.subTest(repo=repo):
+                link, = re.findall(r"\]\(([^)]+)\)", example)
+                if link != examples[repo]:
+                    prefix = f"{repo_url}/blob/{releases[repo]}/"
+                    self.assertTrue(link.startswith(prefix) and len(link) > len(prefix))
+
 
 
 class RemoteVerificationTest(unittest.TestCase):

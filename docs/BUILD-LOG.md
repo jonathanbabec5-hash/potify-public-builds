@@ -40,3 +40,7 @@ Replit identifies the original Shortcut Assistant workspace as POTIFY Shortcut S
 ## November 28 · Public directory refresh
 
 Verified the release branch and file tree for all 36 catalog entries. Updated 35 release revisions and checked the directory, whitepaper and marketing-plan links for every project. The Roof 7B entry still points to its designated developer edition. Earlier field-guide examples retain their historical revisions.
+
+## November 28 · A first task for every project
+
+The category index links each of the 36 projects to a specific example. Plant Doctor’s new [two-case comparison](https://github.com/jonathanbabec5-hash/potify-plant-doctor/blob/b6c6145d4ede52e23f739c9552729a846d13c78b/examples/compare-moisture.mjs) exercises the same rules as the standalone app. Running the sparse case uncovered an incorrect spider-mite explanation. The [fix and regression checks](https://github.com/jonathanbabec5-hash/potify-plant-doctor/pull/4) are on its default branch.
